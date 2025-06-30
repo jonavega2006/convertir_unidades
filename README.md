@@ -1,6 +1,3 @@
----
-
-````markdown
 # Convertidor de Unidades de Longitud
 
 Este proyecto es un programa en Python que permite convertir entre diferentes unidades básicas de longitud.  
@@ -13,57 +10,62 @@ El usuario puede realizar múltiples conversiones dentro de la misma ejecución 
 
 ## Descripción
 
-El programa convierte entre las siguientes unidades de longitud por el momento es asi:
-
-        1: cantidad * 1000,             # Kilómetros a metros
-        2: cantidad,                    # Metros a metros
-        3: cantidad / 100,              # Centímetros a metros
-        4: cantidad / 1000,             # Milímetros a metros
-        5: cantidad / 39.3701,          # Pulgadas a metros
-        6: cantidad / 3.28084,          # Pies a metros
-        7: cantidad * 1609.34,          # Millas a metros
-        8: cantidad / 1.09361           # Yardas a metros
-
-El usuario selecciona la unidad de entrada y el programa calcula automáticamente las equivalencias en las demás unidades.
-
-## Características del programa
-
-- Uso correcto de tipos de datos: `int`, `float`, `str`, `bool`
-- Identificadores descriptivos en formato `snake_case`
-- Menú interactivo con opciones claras
-- Validación de entradas
-- Opción para realizar múltiples conversiones en un solo uso
-- Documentación con comentarios explicativos
-- Listo para ser ejecutado en **PyCharm** y publicado en **GitHub**
-
-## Cómo ejecutar
-
-1. Clona el repositorio:
-
-```bash
-git clone https://github.com/jonavega2006/convertir_unidades.git
-````
-
-2. Ingresa a la carpeta del proyecto:
-
-```bash
-cd convertir_unidades
-```
-
-3. Ejecuta el programa en PyCharm o directamente en la terminal con:
-
-```bash
-python Convertidor_Unidades_Longitud.py
-```
-
-## Requisitos
-
-* Python 3 instalado
-* PyCharm (opcional, recomendado)
-
-## 💻 Ejemplo de uso
+El programa convierte entre las siguientes unidades de longitud por el momento:
 
 ```text
+1: cantidad * 1000,             # Kilómetros a metros
+2: cantidad,                    # Metros a metros
+3: cantidad / 100,              # Centímetros a metros
+4: cantidad / 1000,             # Milímetros a metros
+5: cantidad / 39.3701,          # Pulgadas a metros
+6: cantidad / 3.28084,          # Pies a metros
+7: cantidad * 1609.34,          # Millas a metros
+8: cantidad / 1.09361           # Yardas a metros
+El usuario selecciona la unidad de entrada y el programa calcula automáticamente las equivalencias en las demás unidades.
+
+Características del programa
+Uso correcto de tipos de datos: int, float, str, bool
+
+Identificadores descriptivos en formato snake_case
+
+Menú interactivo con opciones claras
+
+Validación de entradas
+
+Opción para realizar múltiples conversiones en un solo uso
+
+Documentación con comentarios explicativos
+
+Listo para ser ejecutado en PyCharm y publicado en GitHub
+
+Cómo ejecutar
+Clona el repositorio:
+
+bash
+Copiar
+Editar
+git clone https://github.com/jonavega2006/convertir_unidades.git
+Ingresa a la carpeta del proyecto:
+
+bash
+Copiar
+Editar
+cd convertir_unidades
+Ejecuta el programa en PyCharm o directamente en la terminal con:
+
+bash
+Copiar
+Editar
+python Convertidor_Unidades_Longitud.py
+Requisitos
+Python 3 instalado
+
+PyCharm (opcional, recomendado)
+
+💻 Ejemplo de uso
+text
+Copiar
+Editar
 Convertidor de Unidades de Longitud
 Seleccione la unidad de entrada:
 1. Kilómetros
@@ -89,14 +91,7 @@ Resultados de la conversión para 1000:
 - 1093.61 yardas
 
 ¿Desea convertir otra unidad? (s/n):
-```
+Enlace al repositorio
+https://github.com/jonavega2006/convertir_unidades.git
 
-## 🔗 Enlace al repositorio
-
-[https://github.com/jonavega2006/convertir\_unidades.git](https://github.com/jonavega2006/convertir_unidades.git)
-
----
-
-Desarrollado por: **jonavega2006**
-
-```
+Desarrollado por: jonavega2006
